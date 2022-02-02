@@ -1,0 +1,32 @@
+Script started on 2021-11-01 23:02:22-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;hk94@gold29: ~/Desktop/cs112/proj07[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07[00m$ cd Debug
+]0;hk94@gold29: ~/Desktop/cs112/proj07/Debug[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07/Debug[00m$ ls
+makefile    ReversePoem.d        ReversePoemTester.o  StackTester.o  tester.o
+objects.mk  ReversePoem.o        sources.mk           subdir.mk
+[0m[01;32mproj07[0m      ReversePoemTester.d  StackTester.d        tester.d
+]0;hk94@gold29: ~/Desktop/cs112/proj07/Debug[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07/Debug[00m$ make all
+make: Nothing to be done for 'all'.
+]0;hk94@gold29: ~/Desktop/cs112/proj07/Debug[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07/Debug[00m$ cd ... 
+]0;hk94@gold29: ~/Desktop/cs112/proj07[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07[00m$ ./Debug/proj07
+
+Enter the name of the poem file: Poem ms/cats/ .txt
+Cats
+Leo J. Smada
+
+*** Top-To-Bottom ***
+
+I love it when cats rub against me.
+I could never say
+I hate those purring felines.
+
+
+*** Bottom-To-Top ***
+
+
+I hate those purring felines.
+
+
+
+]0;hk94@gold29: ~/Desktop/cs112/proj07[01;32mhk94@gold29[00m:[01;34m~/Desktop/cs112/proj07[00m$ exit
+
+Script done on 2021-11-01 23:05:03-04:00 [COMMAND_EXIT_CODE="0"]
