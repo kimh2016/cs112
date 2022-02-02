@@ -1,0 +1,108 @@
+Script started on 2021-10-04 16:08:33-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;hk94@maroon16: ~/Desktop/cs112/proj04[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04[00m$ cd Debug
+]0;hk94@maroon16: ~/Desktop/cs112/proj04/Debug[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04/Debug[00m$ ls
+Application.d  Matrix.d        MatrixTester.o  sources.mk  tester.o
+Application.o  Matrix.o        objects.mk      subdir.mk   VecTester.d
+makefile       MatrixTester.d  [0m[01;32mproj04[0m          tester.d    VecTester.o
+]0;hk94@maroon16: ~/Desktop/cs112/proj04/Debug[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04/Debug[00m$ make all
+make: Nothing to be done for 'all'.
+]0;hk94@maroon16: ~/Desktop/cs112/proj04/Debug[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04/Debug[00m$ cd ..
+]0;hk94@maroon16: ~/Desktop/cs112/proj04[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04[00m$ ./Debug/proj04
+Running Matrix tests...
+Testing default constructor... 0  1 Passed!
+Testing explicit constructor... 1  2 Passed!
+Testing copy constructor...  1  2  Passed!
+Testing =...  0  1  2  3  4  5 Passed!
+Testing ==...  1  2  3  4 Passed!
+Testing subscripts...  1  2  3  4  5  6 Passed!
+Testing !=...  0  1  2  3 Passed!
+Testing getTranspose()...  0  1a  1b Passed!
+Testing +...  0  1a  1b 4 4 3 4 2 3 3 3 4 3 Passed!
+Testing -...  0  1a  1b  2  3 Passed!
+Testing readFrom(istream)... Passed!
+Testing writeTo(ostream)... Passed!
+Testing readFrom(string)... Passed!
+Testing writeTo(string)... Passed!
+All tests passed!
+
+Matrix Application
+
+Press 1 to Add
+Press 2 to Subtract
+Press 3 to Transpose
+Press 0 to Quit
+Please type one of these numbers:
+1
+Please enter a fileName.
+MatrixTest1.txt
+Matrix 1:
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+Please enter another fileName.
+MatrixTest1.txt
+Matrix 2:
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+Added Matrix:
+2 4 6 8 
+10 12 14 16 
+18 20 22 24 
+
+Matrix Application
+
+Press 1 to Add
+Press 2 to Subtract
+Press 3 to Transpose
+Press 0 to Quit
+Please type one of these numbers:
+2
+Please enter a fileName.
+MatrixTest1.txt
+Matrix 1:
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+Please enter another fileName.
+Mar trixTest1.txt
+Matrix 2:
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+Subtracted Matrix:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Matrix Application
+
+Press 1 to Add
+Press 2 to Subtract
+Press 3 to Transpose
+Press 0 to Quit
+Please type one of these numbers:
+3
+Please enter a fileName.
+MatrixTest1.txt
+Matrix 1:
+1 2 3 4 
+5 6 7 8 
+9 10 11 12 
+Transposed Matrix:
+1 5 9 
+2 6 10 
+3 7 11 
+4 8 12 
+
+Matrix Application
+
+Press 1 to Add
+Press 2 to Subtract
+Press 3 to Transpose
+Press 0 to Quit
+Please type one of these numbers:
+0
+]0;hk94@maroon16: ~/Desktop/cs112/proj04[01;32mhk94@maroon16[00m:[01;34m~/Desktop/cs112/proj04[00m$ exit
+
+Script done on 2021-10-04 16:10:39-04:00 [COMMAND_EXIT_CODE="0"]
