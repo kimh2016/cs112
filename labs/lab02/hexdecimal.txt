@@ -1,0 +1,17 @@
+ldoubleVal: 0x7ffdfea5d470
+doubleVal: 0x7ffdfea5d420
+floatVal: 0x7ffdfea5d418
+longVal: 0x7ffdfea5d428
+intVal: 0x7ffdfea5d41c
+shortVal: 0x7ffdfea5d416
+charVal1: 0x7ffdfea5d413
+charVal2: 0x7ffdfea5d414
+boolVal: 0x7ffdfea5d415
+*ldPtr: 0x7ffdfea5d430
+*dPtr: 0x7ffdfea5d438
+*fPtr: 0x7ffdfea5d440
+*lPtr: 0x7ffdfea5d448
+*iPtr: 0x7ffdfea5d450
+*sPtr: 0x7ffdfea5d458
+*cPtr: 0x7ffdfea5d460
+*bPtr: 0x7ffdfea5d468
