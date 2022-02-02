@@ -1,31 +1,19 @@
-/* tester.cpp is a "driver" to run the tests in the StackTester class.
- * Joel Adams, for CS 112 at Calvin University.
+/*
+ * main.cpp is a driver for an ImageConverter program
+ *  using OpenMP to parallelize the image processing
+ *  and TSGL to view the processing in near real time.
+ *
+ * Author: Joel Adams, for CS 112 at Calvin College.
+ * Date: March 2015.
+ * Revised: November 2016.
+ * Revised for TSGL-2: November 2016.
  */
 
-//#include "StackTester.h"
-//#include "ReversePoemTester.h"
-#include "ReversePoem.h"
-#include <iostream>
-using namespace std;
+#include "ImageConverter.h"
 
 int main() {
-//	StackTester st;
-//	st.runTests();
-//	ReversePoemTester rpt;
-//	rpt.runTests();
-
-	cout << "\nEnter the name of the poem file: ";
-	string poemFile;
-	cin >> poemFile;
-
-	ReversePoem reversePoem(poemFile);
-	cout << reversePoem.getTitle() << "\n"
-			<< reversePoem.getAuthor() << "\n"
-			<< "\n*** Top-To-Bottom ***\n\n"
-			<< reversePoem.getBody()
-			<< "\n*** Bottom-To-Top ***\n\n"
-			<< reversePoem.getBodyReversed()
-			<< endl;
+	omp_set_num_threads(16);
+    ImageConverter iConverter("./pics/beads.jpg", 800, 800);
+    iConverter.run();
 }
-
 
